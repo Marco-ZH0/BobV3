@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(81, 177, 218);
+    color: azure;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+} 
+
+#tarjeta {
+    background-color: rgb(81, 177, 218);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 0%;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+#posterPersonaje {
+    width: 280px;
+    height: 300px;
+}
+
+#Personajes {
+    width: 210px; /* Ancho del select */
+    padding: 10px; /* Espaciado interior del select */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #c7fffe; /* Color de fondo */
+    color: #333; /* Color del texto */
+    margin-left: 100px;
+    cursor: pointer;
+  }
+
+  #Versiones {
+    width: 230px; /* Ancho del select */
+    padding: 10px; /* Espaciado interior del select */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #c7fffe; /* Color de fondo */
+    color: #333; /* Color del texto */
+    margin-left: 35px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para cuando el select está enfocado */
+  #Personajes:focus,#Versiones:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando el select está enfocado */
+    outline: none; /* Elimina el borde predeterminado de enfoque */
+  }
+
+
+  button {
+    background-color: #00BFFF; /* Color azul agua */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interior (ajusta según tus necesidades) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  button:hover {
+    background-color: #009ACD; /* Color azul agua más oscuro al pasar el ratón */
+  }
+
+  #posterPersonaje2{
+    width: 250px;
+    height: 300px;
+  }
